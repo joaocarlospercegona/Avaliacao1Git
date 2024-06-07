@@ -1,5 +1,7 @@
-const nome = "João";
-const idade = 19;
+const nome = "PEDRO";
+const idade = 5;
 
-if (idade >= 18) console.log("Você é maior de idade");
-else if (idade < 18) console.log("Você é menor de idade");
+if (idade >= 18)
+  console.log(nome, " você é maior de idade, sua idade é ", idade);
+else if (idade < 18)
+  console.log(nome, " Você é menor de idade, sua idade é ", idade);
